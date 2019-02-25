@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <title>Fast</title>
+    <style>
+      #video {
+        position: absolute;
+        top: 350px;
+      }
+      body {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+  </style>
+</head>
+
+<body>
+    <div id="main">
+      <video id="video" width="393" height="295" preload autoplay loop muted controls></video>
+      <canvas id="canvas" width="800" height="530"></canvas>
+    </div>
+    <script type="text/javascript" src="lib/tracking-min.js"></script>
+    <script type="text/javascript" src="lib/three.js"></script>
+
+    <script type="text/javascript" src="dist/fastTracker.js"></script>
+
+    <script type="text/javascript" src="dist/app.js"></script>
+
+</body>
+
+</html>

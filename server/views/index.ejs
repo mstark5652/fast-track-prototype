@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <title>Wear.js | ejs</title>
+    <link rel="stylesheet" type="text/css" href="dist/bundle.css" />
+</head>
+
+<body>
+    <div id="main"></div>
+
+    <script type="text/javascript" src="lib/three.js"></script>
+    <script type="text/javascript" src="lib/ar.js"></script>
+    <script type="text/javascript" src="lib/FBXLoader.js"></script>
+
+    <script type="text/javascript" src="dist/bundle.js"></script>
+
+    <script type="text/javascript">
+        var options = {
+            id: 'scene-c2',
+            container: document.getElementById('main'),
+        };
+        var scene = new WEAR.WearScene(options);
+
+
+    </script>
+</body>
+
+</html>
