@@ -2,8 +2,7 @@ node_modules
 *.log
 output/
 
-.vs_code/
-public/dist/
+.vs_code
 
 # Config
 
